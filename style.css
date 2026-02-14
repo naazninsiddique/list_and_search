@@ -13,11 +13,11 @@ body {
   height: 100vh;
   margin: 50px auto; /* *** */
   max-width: 40rem;
-  padding: 50px 20px; /* top se 50 or right left dono se 20 */
+  padding: 50px 20px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 10px black; /* x y dir. 0, blur 10px color */
+  box-shadow: 0 0 10px black; 
   border-style: 15px;
   width: 100%;
 }
@@ -29,7 +29,7 @@ body {
 }
 .search {
   margin: 5px;
-  padding: 12px 10px; /* top se 12 or right left dono se 10 */
+  padding: 12px 10px; 
   border-radius: 5px;
   width: 100%;
 }
@@ -48,7 +48,7 @@ body {
   display: flex;
   gap: 20px;
   padding: 15px 15px;
-  align-items: center; /*column wise center */
+  align-items: center; 
   background-color: #fff;
   width: 100%;
   max-height: 4rem;
