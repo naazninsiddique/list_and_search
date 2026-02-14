@@ -55,7 +55,7 @@ function renderuser(ar) {
     usercontainer.append(elem);
   });
 }
-renderuser(arr); //it is important to show all the users profile in container
+renderuser(arr); 
 function handlesearch(e) {
   console.log(search.value);
   let searchvalue = e.target.value;
@@ -65,6 +65,6 @@ function handlesearch(e) {
       obj.email.toLowerCase().includes(searchvalue.toLowerCase())
     );
   });
-  renderuser(filtervalue); //its important to show filtered profile
+  renderuser(filtervalue); 
 }
 search.addEventListener("input", handlesearch);
